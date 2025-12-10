@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Table</title>
+</head>
+<body>
+    <h1>Function :</h1>
+
+    
+
+    <button onclick="changeColor()">
+        click here to apply colors
+    </button>
+    
+    <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Table Heading-1</th>
+                <th>Table Heading-2</th>
+                <th>Table Heading-3</th>
+                <th>Table Heading-4</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>table-data1</td>
+                <td>table-data2</td>
+                <td>table-data3</td>
+                <td>table-data4</td>
+            </tr>
+
+            <tr>
+                <td>table-data1</td>
+                <td>table-data2</td>
+                <td>table-data3</td>
+                <td>table-data4</td>
+            </tr>
+            <tr>
+                <td>table-data1</td>
+                <td>table-data2</td>
+                <td>table-data3</td>
+                <td>table-data4</td>
+            </tr>   
+            <tr>
+                <td>table-data1</td>
+                <td>table-data2</td>
+                <td>table-data3</td>
+                <td>table-data4</td>
+            </tr>
+            <script>
+        
+        let tb = document.querySelector("table");
+        
+
+        function changeColor(){
+            tb.style.backgroundColor = "lightgreen";
+            
+            
+        }
+    </script>
+        </tbody>
+    </table>
+</body>
+</html>
+<!-- Assignment quation:
+write a javascript code to display five employee details (empname,emprow,empsalary,empaddr)using function with parameters -->
